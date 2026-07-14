@@ -61,34 +61,20 @@ export default function Home() {
       <main id="top">
         <section className="hero secband secband-hero">
           <div className="wrap">
-          <div className="hero-grid">
-            <div>
-              <p className="eyebrow">Financial Consultancy · Dubai, UAE</p>
-              <h1>
-                Clear numbers.<br />
-                <em>Confident</em> decisions.
-              </h1>
-              <p className="lead">
-                Haven Consultancy LLC helps Dubai businesses stay compliant, audit-ready
-                and profitable — combining rigorous audit with hands-on accounting and
-                financial management that improves how your company performs.
-              </p>
-              <div className="hero-actions">
-                <a className="btn btn-primary" href="#contact">Book a consultation</a>
-                <a className="btn btn-ghost" href="#services">Explore services</a>
-              </div>
-            </div>
-
-            <div className="glass hero-card">
-              <p className="eyebrow" style={{ marginBottom: 6 }}>Trusted by owners across the UAE</p>
-              <div className="stat-row">
-                <div className="stat glass"><b>15+</b><small>Years combined</small></div>
-                <div className="stat glass"><b>200+</b><small>Engagements</small></div>
-              </div>
-              <div className="stat-row">
-                <div className="stat glass"><b>IFRS</b><small>Compliant reporting</small></div>
-                <div className="stat glass"><b>100%</b><small>Confidential</small></div>
-              </div>
+          <div className="hero-inner">
+            <h1 className="hero-title">
+              Let us handle the problems,<br />
+              so you can keep being the <em>solution.</em>
+            </h1>
+            <p className="hero-brand">Haven Consultancy</p>
+            <p className="hero-copy">
+              Since 2018, Haven Consultancy has helped small and medium businesses across
+              the UAE build stronger financial foundations, stay compliant with local
+              regulation, and make decisions with clarity instead of guesswork.
+            </p>
+            <p className="hero-kicker">Dubai, UAE · Est. 2018</p>
+            <div className="hero-actions">
+              <a className="btn btn-light" href="#services">Explore Services →</a>
             </div>
           </div>
           </div>
