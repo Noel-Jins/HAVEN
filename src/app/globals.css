@@ -213,8 +213,9 @@ section { padding: 92px 0; }
 .card .ic {
   width: 48px; height: 48px; border-radius: 13px; margin-bottom: 20px;
   display: grid; place-items: center; font-size: 22px;
-  background: linear-gradient(145deg, rgba(138,47,74,0.14), rgba(43,53,102,0.14));
-  color: var(--primary);
+  background: linear-gradient(145deg, rgba(217,138,99,0.22), rgba(74,99,176,0.28));
+  border: 1px solid rgba(255,255,255,0.10);
+  color: var(--gold-soft);
 }
 .card h3 { font-size: 21px; margin-bottom: 10px; }
 .card p { color: var(--ink-soft); font-size: 15px; }
